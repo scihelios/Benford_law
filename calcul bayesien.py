@@ -25,7 +25,6 @@ from matplotlib.backends.backend_pdf import PdfPages
 '''
 echant=1000
 pf=[5,15]
-
 def F(p):
 	occ1 = pf[0]
 	occ2 = pf[1]
