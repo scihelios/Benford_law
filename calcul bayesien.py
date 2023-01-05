@@ -40,8 +40,6 @@ print (y)
 plt.plot(x,y)
 plt.show()
 
-
-
 '''
 #DIM 2 POUR 2 VARIABLE (NAPPE)
 def F(p1,p2):
