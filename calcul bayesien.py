@@ -1,6 +1,5 @@
 from mpl_toolkits import mplot3d
 import random
-import openpyxl
 import itertools 
 import time
 
@@ -8,9 +7,6 @@ import math as m
 import numpy as np
 import matplotlib.pyplot as plt
 import tkinter as tk
-import numba
-
-from numba import jit, cuda
 from tkinter import *
 from tkinter import ttk
 from tkinter import scrolledtext

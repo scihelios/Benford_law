@@ -1,7 +1,6 @@
 from mpl_toolkits import mplot3d
 import random
 import math as m
-import openpyxl
 import itertools 
 import time
 
