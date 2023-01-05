@@ -392,7 +392,7 @@ def clickverif():
 		lbl1.place(relx=0.5, rely=0.3, anchor=CENTER)
 		lbl1 = Label(window, text="1- mettre le l'adresse du fichier correctement en utilisant un double backslash (\\\\)." )
 		lbl1.place(relx=0.5, rely=0.35, anchor=CENTER)
-		lbl1 = Label(window, text="exemple : C:\\\\Users\\\\ahmed\\\\gdptest.csv ." )
+		lbl1 = Label(window, text="exemple : gdptest.csv ." )
 		lbl1.place(relx=0.5, rely=0.4, anchor=CENTER)
 		lbl1 = Label(window, text="2- le fichier doit etre en format CVS et arrangée comme dans l'exemple indiqué ." )
 		lbl1.place(relx=0.5, rely=0.45, anchor=CENTER)
