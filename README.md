@@ -6,4 +6,4 @@ when using the program u must put the csv file name to make it work
 
 verification info :
 username ; ahmed
-passwod ; 12345
+password ; 12345
