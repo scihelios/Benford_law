@@ -233,7 +233,7 @@ def imprimer():
 	plt.show()
 
 	#exporter la figure vers un pdf
-	fig.savefig('C:\\Users\\ahmed\\OneDrive\\desktop\\Nouveau dossier\\figure de '+e+'.pdf')
+	fig.savefig('figure de '+e+'.pdf')
 
 	#creer un nouveau pdf
 	mpdf=FPDF('P', 'mm', 'Letter')
@@ -280,12 +280,12 @@ def imprimer():
 		mpdf.cell(100, 4,'',  ln=1)
 		mpdf.multi_cell(180, 8, "         les données suivent la loi de Benford dans la marge de confiance prédeterminé.",border=0, ln=1)
 	mpdf.cell(100, 20,'',  ln=1)
-	mpdf.multi_cell(200, 8, "N.B : les graphe sont dans un pdf sous le nom "+'"figure de '+e+'.pdf"', align='C',border=0, ln=1)
+	mpdf.multi_cell(200, 8, 'figure de '+e+'.pdf', align='C',border=0, ln=1)
 	mpdf.cell(100, 20,'',  ln=1)
 	mpdf.cell(200, 8,'-1-', align='C', ln=1)
 
 	#exporter le pdf
-	mpdf.output('C:\\Users\\ahmed\\OneDrive\\desktop\\Nouveau dossier\\'+e+'.pdf')
+	mpdf.output(e+'.pdf')
 
 #réinitialiser les zones de text	
 def reset1():
